@@ -1,0 +1,27 @@
+Lenovo@409-27 MINGW64 ~/Desktop/practice
+$ git config --global user.name "Gyq-r"
+
+Lenovo@409-27 MINGW64 ~/Desktop/practice
+$ git config --global user.email "1441357695@qq.com"
+
+Lenovo@409-27 MINGW64 ~/Desktop/practice
+$ git config --global user.password "yueqing5425"
+
+Lenovo@409-27 MINGW64 ~/Desktop/practice
+$ git init
+Initialized empty Git repository in C:/Users/Lenovo/Desktop/practice/.git/
+
+Lenovo@409-27 MINGW64 ~/Desktop/practice (master)
+$ git add .
+
+Lenovo@409-27 MINGW64 ~/Desktop/practice (master)
+$ git commit -m "text"
+[master (root-commit) 7c9d7b9] text
+ 1 file changed, 5 insertions(+)
+ create mode 100644 text.txt
+
+Lenovo@409-27 MINGW64 ~/Desktop/practice (master)
+$ git remote add origin https://github.com/Gyq-r/try.git
+
+Lenovo@409-27 MINGW64 ~/Desktop/practice (master)
+$ git push -u origin master
